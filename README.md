@@ -1,9 +1,10 @@
 # Nodejs CRUD-Based Todo-app 
 Setup :
 ```
-git https://github.com/Arbazbms/Weather-app-NodeJs-ExpressJs-.git
+git https://github.com/Arbazbms/TODO_APP-NODEJS_EXPRESSJS_MONGODB.git
 npm install
-npm run start
+node app.js
 
 ```
-![alt text](https://github.com/Arbazbms/Weather-app-NodeJs-ExpressJs-/blob/master/public/img/Screenshot.jpg)
+![alt text](https://github.com/Arbazbms/TODO_APP-NODEJS_EXPRESSJS_MONGODB/blob/master/public/img/t1.jpg)
+![alt text](https://github.com/Arbazbms/TODO_APP-NODEJS_EXPRESSJS_MONGODB/blob/master/public/img/t2.jpg)
