@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/signin.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Todo-App</title>
+</head>
+
+<body class="text-center">
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Todo-App</a>
+        <button type="button" class="btn btn-info" href="/list"><i class="fa fa-list-alt"></i><a class="navbar-item" href="/list" style="color: aliceblue;">List</a></button>
+        
+
+    </nav>
+
+
+
+    <form class="form-signin" action="/" method="POST">
+        <input type="hidden" name="_id" value="{{id}}">
+
+        <h1 class="h3 mb-3 font-weight-normal">{{titlei}}</h1>
+        <label for="inputEmail" class="sr-only">Title</label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="title" name="title" value="{{title}}"
+            required autofocus>
+        <label for="inputPassword" class="sr-only">Body</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="body" name="body" value="{{body}}"
+            required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit"><i class="fa fa-database"></i>{{titlei}}</button>
+        <p class="mt-5 mb-3 text-muted">developed by ArbazAhmed</p>
+    </form>
+</body>
+
+</html>
